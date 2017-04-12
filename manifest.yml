@@ -1,0 +1,9 @@
+applications:
+- path: target/aurorairl.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: aurorairl
+  host: aurorairl
+  disk_quota: 1024M
+  buildpack: java_buildpack
