@@ -1,0 +1,27 @@
+
+@media (min-width: 840px) {
+  /* Docked Navbar */
+  .has-docked-nav .nav {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .spacer {
+    width: 100%;
+    display: none;
+    height: 8.2rem;
+    z-index: 100;
+  }
+  .has-docked-nav .spacer {
+    display: block;
+  }
+/*  .banner {
+    padding-top: 8rem;
+  }
+  .header {
+    padding-bottom: 100px;
+  }*/
+}
+
