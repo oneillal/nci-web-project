@@ -2,16 +2,13 @@
 
 ### _12th April 2017_  
 We all took a study day today and booked a meeting room for an all-day working session. We made a lot of progress finally settling on how we wanted our pages to look and also developing our wireframes. 
-![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session1.png)  
-![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session2.png)  
+![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session1.png)    
 ![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session3.png)  
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png) 
-![](https://guides.github.com/activities/hello-world/branching.png)
 
 * * *
 ### _5th April 2017_  
 Finally settling on how we wanted our pages to look so created draft basic wireframes. Could not get Balsamiq to install so just did them in good ole' Visio. Planning an all day session during Easter week so we should make some good progress.
-![](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png)
+![](https://github.com/oneillal/nci-web-project/raw/master/docs/index_wireframe_desktop.png)
 
 * * *
 ### _28th March 2017_  
