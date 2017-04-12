@@ -2,9 +2,9 @@
 
 ### _12th April 2017_  
 We all took a study day today and booked a meeting room for an all-day working session. We made a lot of progress finally settling on how we wanted our pages to look and also developing our wireframes. 
-![](docs/web_session1.png)  
-![](docs/web_session2.png)  
-![](docs/web_session3.png)  
+![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session1.png)  
+![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session2.png)  
+![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session3.png)  
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png) 
 ![](https://guides.github.com/activities/hello-world/branching.png)
 
