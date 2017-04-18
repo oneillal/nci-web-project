@@ -1,6 +1,16 @@
 @import url("css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+       /* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+*/
+	img, div {
+	margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
 
         article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
                 display: block;
@@ -41,9 +51,6 @@
 		padding: 50px 0 0 50px;
 	}
 
-	.row {
-		margin: -50px 0 -1px -50px;
-	}
 
 /* Basic */
 
@@ -333,41 +340,6 @@
 					display: none;
 				}
 
-/* Dropotron */
-
-	.dropotron {
-		background-color: #333;
-		background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/background1.png");
-		background-image: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/background1.png");
-		border-radius: 5px;
-		color: #fff;
-		min-width: 10em;
-		padding: 1em 0;
-		text-align: center;
-		box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.5);
-	}
-
-		.dropotron > li {
-			line-height: 2em;
-			padding: 0 1.1em 0 1em;
-		}
-
-			.dropotron > li > a {
-				color: #c0c0c0;
-				text-decoration: none;
-				border: 0;
-			}
-
-			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #fff;
-			}
-
-		.dropotron.level-0 {
-			border-radius: 0 0 5px 5px;
-			font-size: 0.9em;
-			padding-top: 0;
-			margin-top: -1px;
-		}
 
 /* Banner */
 
