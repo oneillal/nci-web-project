@@ -10,13 +10,6 @@
 		var	$window = $(window),
 			$body = $('body');
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				offsetY: -15,
-				hoverDelay: 0,
-				alignment: 'center'
-			});
-
 		// Off-Canvas Navigation.
 
 			// Title Bar.
