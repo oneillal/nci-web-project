@@ -1,5 +1,8 @@
 ## Project Report 
 
+### _18th April 2017_  
+Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things.
+
 ### _12th April 2017_  
 We all took a study day today and booked a meeting room for an all-day working session. We made a lot of good progress. Took quiet a while to try and realise the wireframe with actual HTML and CSS but we managed to get something that looks pretty close.
 We start out with this...
