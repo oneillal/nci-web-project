@@ -2,7 +2,7 @@
 
 #### Alan O'Neill | Mark Hanlon  | Jonas Stein
 
-[Project Blog](https://oneillal.github.io/nci-web-project/)
+[Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md)
 
 [Logged Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue)
 
