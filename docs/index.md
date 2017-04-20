@@ -3,7 +3,7 @@
 ##### :date: _19th April 2017_
 ### :last_quarter_moon_with_face: Late Late Show
 We are working late again tonight to try and get things finished. We are realising that we didn't plan well enough. All the things we wanted to get into the project won't happen now because we need to get our project report.
-![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/index.jpg)
+![](https://github.com/oneillal/nci-web-project/blob/master/docs/WhatsApp_image_20170419.jpg)
 
 ##### :date: _18th April 2017_
 ### :warning: GitHub to the Rescue
