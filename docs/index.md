@@ -3,7 +3,7 @@
 
 ##### :date: _20th April 2017_
 ### :white_check_mark: Validator 2: Judgement Day
-@hanlonmk1 run our fist pass at html and css validation. Except for a missing _ALT_ text for our images we are in good shape. Whoohoo!
+**@hanlonmk1** ran our first pass at html and css validation. Except for a few missing _ALT_ text on images we are in good shape. Whoohoo!
 ![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/validation.png)
 
 * * *
@@ -22,6 +22,7 @@ Looks like it will be late nights all this week to get everything finished. Good
 ### :warning: Responsive? Ugh!
 The responsive design is proving to be a big challenge. We are struggling trying to make our design work on a mobile view. We had to simplfy the page layout because we don't have the time now to figure out how to get it all into a mobile view that works. Lesson learned...make sure your design will work for both Desktop and Mobile.
 
+* * *
 ##### :date: _12th April 2017_  
 ### :sparkles: All Dayer!...but Getting Somewhere
 We all took a study day today and booked a meeting room for an all-day working session. We made a lot of good progress. Took quiet a while to try and realise the wireframe with actual HTML and CSS but we managed to get something that looks pretty close.
@@ -69,5 +70,5 @@ New idea for an Irish Space Tourism startup. We are all feeling good about this 
 * * *
 ##### :date: _7th March 2017_  
 ## :rage1: Creative Differences
-Still struggling with ideas for our website. @ idea for a kayaking tour company isn't going down well with creative director @hanlonmk1.
+Still struggling with ideas for our website. **@oneillal** idea for a kayaking tour company isn't going down well with creative director **@hanlonmk1**.
 
