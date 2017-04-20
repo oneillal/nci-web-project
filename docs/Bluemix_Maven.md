@@ -2,8 +2,8 @@ Instructions below on how to build and deploy the web app to Bluemix.
 
 ## Run the webapp locally
 
-1. [Install Apache Maven]: http://maven.apache.org/
-2. [Install Apache Tomcat]: http://tomcat.apache.org/
+1. Install Apache Maven [http://maven.apache.org/](http://maven.apache.org/)
+2. Install Apache Tomcat [http://tomcat.apache.org/](http://tomcat.apache.org/)
 
 For cmd-line do the following:
 
@@ -13,8 +13,8 @@ For cmd-line do the following:
   + Start Tomcat by running its `bin/startup.sh` script
   + Access the running app in a browser at <http://localhost:8080/aurorairl/>
 
-If using Eclipse just add Tomcat server and setup Maven Run Configuration as show below.
-
+If using Eclipse just add Tomcat server and setup Maven Run Configuration as show below.  
+!(https://github.com/oneillal/nci-web-project/blob/master/docs/Screenshot_2017-04-20_12-29-38.png)
 
 ## Bluemix & Cloud Foundry Setup
 
