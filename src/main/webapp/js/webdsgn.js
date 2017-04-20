@@ -14,30 +14,21 @@ $(document).ready(function() {
   }
 
   function resize() {
-  //  if($window.width() >= 840){
       $body.removeClass('has-docked-nav')
-      //$body.removeClass('banner')
-      //$body.removeClass('header')
       navOffsetTop = $nav.offset().top
       onScroll()
-   // }
   }
 
   // $window.scrollTop(): Get the current vertical position of the scroll bar
     // for the first element in the set of matched elements
 
   function onScroll() {
-    //if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav') && $window.width() >= 840) {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
       $body.addClass('has-docked-nav')
-      //$body.addClass('banner')
-      //$body.addClass('header')
     }
 
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
       $body.removeClass('has-docked-nav')
-      //$body.removeClass('banner')
-     // $body.removeClass('header')
     }
   }
 
