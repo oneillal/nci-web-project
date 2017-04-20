@@ -14,7 +14,7 @@ We are working late again tonight to try and get things finished. We are realisi
 
 * * *
 ##### :date: _18th April 2017_
-### :warning: GitHub to the Rescue
+### :ambulance: GitHub to the Rescue
 Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things that we need to address. Pity we didn't think of this earlier. Would have helped a lot.
 
 * * *
@@ -24,8 +24,8 @@ The responsive design is proving to be a big challenge. We are struggling trying
 
 * * *
 ##### :date: _12th April 2017_  
-### :sparkles: All Dayer!...but Getting Somewhere
-We all took a study day today and booked a meeting room for an all-day working session. We made a lot of good progress. Took quiet a while to try and realise the wireframe with actual HTML and CSS but we managed to get something that looks pretty close.
+### :sparkles: All Day, All Night
+We all took a study day today and booked a meeting room for an all-day working session that turn into an all night session. We made a lot of good progress. Took quiet a while to try and realise the wireframe with actual HTML and CSS but we managed to get something that looks pretty close.
 We start out with this...
 ![](https://github.com/oneillal/nci-web-project/raw/master/docs/web_session3.png)  
 With good teamwork and collaboration...
