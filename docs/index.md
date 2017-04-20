@@ -1,9 +1,20 @@
 ## Project Report 
 
+##### :date: _19th April 2017_
+### :last_quarter_moon_with_face: Late Late Show
+We are working late again tonight to try and get things finished. We are realising that we didn't plan well enough. All the things we wanted to get into the project won't happen now because we need to get our project report.
+![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/index.jpg)
+
 ##### :date: _18th April 2017_
-### :warning: GitHub Issues to the Rescue & Mobile Design Headaches
+### :warning: GitHub to the Rescue
 Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things that we need to address. Pity we didn't think of this earlier. Would have helped a lot.
 
+##### :date: _18th April 2017_
+### :warning: GitHub to the Rescue
+Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things that we need to address. Pity we didn't think of this earlier. Would have helped a lot.
+
+##### :date: _17th April 2017_
+### :warning: Responsive? Ugh!
 The responsive design is proving to be a big challenge. We are struggling trying to make our design work on a mobile view. We had to simplfy the page layout because we don't have the time now to figure out how to get it all into a mobile view that works. Lesson learned...make sure your design will work for both Desktop and Mobile.
 
 ##### :date: _12th April 2017_  
