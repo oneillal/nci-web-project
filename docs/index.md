@@ -1,18 +1,23 @@
 ## Project Report 
 
+
+##### :date: _20th April 2017_
+### :white_check_mark: Validator 2: Judgement Day
+@hanlonmk1 run our fist pass at html and css validation. Except for a missing _ALT_ text for our images we are in good shape. Whoohoo!
+![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/validation.png)
+
+* * *
 ##### :date: _19th April 2017_
 ### :last_quarter_moon_with_face: Late Late Show
 We are working late again tonight to try and get things finished. We are realising that we didn't plan well enough. All the things we wanted to get into the project won't happen now because we need to get our project report.
 ![](https://github.com/oneillal/nci-web-project/blob/master/docs/WhatsApp_image_20170419.jpg)
 
+* * *
 ##### :date: _18th April 2017_
 ### :warning: GitHub to the Rescue
 Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things that we need to address. Pity we didn't think of this earlier. Would have helped a lot.
 
-##### :date: _18th April 2017_
-### :warning: GitHub to the Rescue
-Looks like it will be late nights all this week to get everything finished. Good progress this evening with some issues fixed and making use of ![GitHub Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue) to track things that we need to address. Pity we didn't think of this earlier. Would have helped a lot.
-
+* * *
 ##### :date: _17th April 2017_
 ### :warning: Responsive? Ugh!
 The responsive design is proving to be a big challenge. We are struggling trying to make our design work on a mobile view. We had to simplfy the page layout because we don't have the time now to figure out how to get it all into a mobile view that works. Lesson learned...make sure your design will work for both Desktop and Mobile.
