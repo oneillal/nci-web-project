@@ -1,6 +1,8 @@
 Instructions below on how to build and deploy the web app to Bluemix.
 
-## Run the webapp locally
+App URL: http://aurorairl.mybluemix.net/
+
+## Running the webapp locally
 
 1. Install Apache Maven [http://maven.apache.org/](http://maven.apache.org/)
 2. Install Apache Tomcat [http://tomcat.apache.org/](http://tomcat.apache.org/)
@@ -51,6 +53,8 @@ Go to above URL to get SSO passcode and enter at the prompt to continue authenti
   Org:            alan.oneill@ie.ibm.com
   Space:          nci
   ```
+
+## Bluemix Deployment
 
 Push the App as follows. This should work as long as nothing changes in the ![Manifest File](https://github.com/oneillal/nci-web-project/blob/master/manifest.yml)
 
