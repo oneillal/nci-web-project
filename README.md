@@ -1,4 +1,6 @@
-# nci-web-project
+# NCI Web Design Project 2017
+
+#### Alan O'Neill | Mark Hanlon  | Jonas Stein
 
 [Project Blog](https://oneillal.github.io/nci-web-project/)
 
