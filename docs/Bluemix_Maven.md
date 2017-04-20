@@ -15,8 +15,8 @@ For cmd-line do the following:
   + Start Tomcat by running its `bin/startup.sh` script
   + Access the running app in a browser at <http://localhost:8080/aurorairl/>
 
-If using Eclipse just add Tomcat server and setup Maven Run Configuration as show below.  
-![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/Screenshot_2017-04-20_12-29-38.png)
+If using Eclipse just add Tomcat server and setup Maven Run Configuration as show below. 
+<img src="https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/Screenshot_2017-04-20_12-29-38.png" width="839">
 
 ## Bluemix & Cloud Foundry Setup
 
