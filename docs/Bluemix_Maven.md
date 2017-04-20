@@ -14,7 +14,7 @@ For cmd-line do the following:
   + Access the running app in a browser at <http://localhost:8080/aurorairl/>
 
 If using Eclipse just add Tomcat server and setup Maven Run Configuration as show below.  
-!(https://github.com/oneillal/nci-web-project/blob/master/docs/Screenshot_2017-04-20_12-29-38.png)
+![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/Screenshot_2017-04-20_12-29-38.png)
 
 ## Bluemix & Cloud Foundry Setup
 
