@@ -29,7 +29,7 @@ It's reading week but there are a few CA's coming up so web project needs to tak
 
 * * *
 ##### :date: _23th March 2017_ 
-## :contruction: We are Building!
+## :construction: We are Building!
 We made great progress tonight in the labs getting all our Bluemix app hosting and maven build scripts working. Sweet! 
 ![](https://github.com/oneillal/nci-web-project/raw/master/docs/bluemix_app.png)  
 ![](https://github.com/oneillal/nci-web-project/raw/master/docs/maven_build.png)  
@@ -42,7 +42,7 @@ Finding time is still proving difficult but we are making good use of slack to w
 
 * * *
 ##### :date: _14th March 2017_  
-## 
+## :hamster: Duty Calls
 We are all busy with work. @oneillal is travelling this week for work. Thanks Vikas mentioned that this weeks submission is optional. Phew!
 
 * * *
