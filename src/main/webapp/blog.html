@@ -5,61 +5,50 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <!-- CSS -->
-                <link rel="stylesheet" href="css/main.css" />
+<!-- CSS -->
+<link rel="stylesheet" href="css/main.css" />
 
-                <!-- Scripts -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                <script src="js/docked-navbar.js"></script>
-
-		<!-- Mobile SideBar -->         
-                <script>
-                        function openNav() {
-                                document.getElementById("sidenav").style.width = "20em";
-                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
-                        }
-
-                        function closeNav() {
-                                document.getElementById("sidenav").style.width = "0";
-                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
-
-                        }
-                </script>
+<!-- Scripts -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
 
 </head>
 <body>
 
-        <!-- Mobile Navbar -->
-        <div id="titleBar">
-                <a href="javascript:void(0)" id="toggle" class="toggle" onclick="openNav()"></a>
-                <div class="title">
-                        <a href="index.html" id="logo">
-                        <span class="fa fa-rocket" aria-hidden="true"></span>
-                        &nbsp;Aurora Ireland&nbsp;
-                        <span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
-                        </a>
-                </div>
+	<!-- Mobile Navbar -->
+	<div id="titleBar">
+		<a href="javascript:void(0)" id="toggle" class="toggle"
+			onclick="openNav()"></a>
 
-        </div>
-        <!-- Mobile Sidebar-->
-        <nav id="sidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="liftoff.html">Lift Off</a></li>
-                        <li class="current"><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </nav>
+		<div class="title">
+			<a href="index.html" id="logo"> <span class="fa fa-rocket"
+				aria-hidden="true"></span> &nbsp;Aurora Ireland&nbsp; <span
+				class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+			</a>
+		</div>
+
+	</div>
+	<!-- Mobile Sidebar-->
+	<nav id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="liftoff.html">Lift Off</a></li>
+			<li><a href="blog.html">Mission Log</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
 
 
 	<div id="page-body">
 		<div id="header" class="header">
 			<h1>
 				<a href="index.html" id="logo"> <span class="fa fa-rocket"
-					aria-hidden="true"></span> &nbsp;Aurora Ireland&nbsp; <span
-					class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+					style="font-size: 40px" aria-hidden="true"></span> Aurora Ireland <span
+					class="fa fa-rocket fa-flip-horizontal" style="font-size: 40px"
+					aria-hidden="true"></span>
 				</a>
 			</h1>
 
@@ -69,7 +58,7 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="liftoff.html">Lift Off</a></li>
-					<li class="current"><a href="blog.html">Blog</a></li>
+					<li class="current"><a href="blog.html">Mission Log</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -86,40 +75,27 @@
 							<!-- Content -->
 							<article>
 								<header>
-									<h2>Blog</h2>
-									<p>Sidebar on the right, content on the left.</p>
+									<h2>Mission Log</h2>
+									<p>Below is our blog which details our journey to the
+										stars.</p>
 								</header>
 
-								<p>Phasellus quam turpis, feugiat sit amet ornare in,
-									hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu
-									ante risus. Aliquam erat volutpat. Aliquam luctus et mattis
-									lectus sit amet pulvinar. Nam turpis nisi consequat etiam lorem
-									ipsum dolor sit amet nullam.</p>
+								<div class="blogdate">Tuesday 14th April</div>
 
-								<h3>And Yet Another Subheading</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Maecenas ac quam risus, at tempus justo. Sed dictum rutrum
-									massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque
-									lorem felis, ultricies a bibendum id, bibendum sit amet nisl.
-									Mauris et lorem quam. Maecenas rutrum imperdiet vulputate.
-									Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis
-									orci convallis tempor. Etiam a lacus a lacus pharetra porttitor
-									quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-									rhoncus dui quis euismod. Maecenas lorem tellus, congue et
-									condimentum ac, ullamcorper non sapien. Donec sagittis massa et
-									leo semper a scelerisque metus faucibus. Morbi congue mattis
-									mi. Phasellus sed nisl vitae risus tristique volutpat. Cras
-									rutrum commodo luctus.</p>
-
-								<p>Phasellus odio risus, faucibus et viverra vitae, eleifend
-									ac purus. Praesent mattis, enim quis hendrerit porttitor,
-									sapien tortor viverra magna, sit amet rhoncus nisl lacus nec
-									arcu. Suspendisse laoreet metus ut metus imperdiet interdum
-									aliquam justo tincidunt. Mauris dolor urna, fringilla vel
-									malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla
-									pretium pretium. Maecenas tortor mauris, consectetur
-									pellentesque dapibus eget, tincidunt vitae arcu. Vestibulum
-									purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+								<div class="blogtitle">TEST LAUNCH WEEK</div>
+								<div class="blogpost">This has been a significant week at
+									Aurora Ireland's launch site in Boa Vista, Brazil. Key team
+									members from Dublin headquarters made their way to the
+									equatorial location...
+			
+								</div>
+						<div><a href="#" class="button" id="blogpost1-show" onclick="showHide('blogpost1');return false;">Read More</a></div>
+								    <div id="blogpost1" class="blogpostmore">
+								         <p> and were in attendance with the Brazilian
+									Ministry of Defence to witness the 1st test launch of IRL1.
+									It's the culmination of more than 2 years of hard work.</p>
+								         <p><a href="#" id="blogpost1-hide" class="button" onclick="showHide('blogpost1');return false;">Read Less</a></p>
+								    </div>
 							</article>
 
 						</div>
@@ -130,7 +106,7 @@
 							<!-- Sidebar -->
 
 							<section>
-								<h3>Blog Posts</h3>
+								<h3>Log Entries</h3>
 								<ul class="links">
 									<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
 									<li><a href="#">Ornare in hendrerit in lectus</a></li>
