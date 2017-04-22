@@ -359,8 +359,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 	margin-left: 0;
 }
 
-.rowcellsmaller {
+.rowcellblog {
 	width: 60%;
+	clear: none;
+	margin-left: 0;
+	margin-right: 20;
+}
+
+.rowcellsidebar {
+	width: 30%;
 	clear: none;
 	margin-left: 0;
 	margin-bottom: 20px;
