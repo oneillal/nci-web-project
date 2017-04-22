@@ -274,7 +274,7 @@ ul.icons li a, ul.icons li span {
 #nav>ul>li.current::before {
 	position: absolute;
 	bottom: 2.5em;
-	left: 50%;
+	left: 46%;
 	margin-left: -0.4em;
 	color: #fff;
 	-moz-osx-font-smoothing: grayscale;
@@ -368,7 +368,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 
 .rowcellsidebar {
 	width: 30%;
-	clear: none;
+	clear: none;c
 	margin-left: 0;
 	margin-bottom: 20px;
 }
