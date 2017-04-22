@@ -709,8 +709,12 @@ footer>:last-child {
 		margin-left: 0;
 		margin-bottom: 20px;
 	}
-
-
+	.rowcellblog {
+		width: 80%;
+	}
+	.rowcellsidebar {
+		display: none;
+	}
 
 
 	/* === FOOTER === */
