@@ -674,6 +674,21 @@ footer>:last-child {
 		margin-bottom: 20px;
 	}
 
+	.rowcell h4 {
+	        margin-left: 2.4em;
+	}
+
+	.inputMsg {
+	        width: 81%;
+	}
+
+	.sendEmail {
+	        padding-left: 0.6em;
+	}
+
+
+
+
 	/* === FOOTER === */
 	#footer {
 		text-align: center;
