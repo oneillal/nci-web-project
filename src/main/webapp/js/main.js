@@ -54,13 +54,9 @@ function showHide(shID) {
 	if (document.getElementById(shID)) {
 		if (document.getElementById(shID + '-show').style.display != 'none') {
 			document.getElementById(shID + '-show').style.display = 'none';
-			document.getElementById(shID).style.display = 'none';
-			document.getElementById(shID + '-s').style.display = 'block';
-			document.getElementById(shID + 'm').style.display = 'block';
+			document.getElementById(shID).style.display = 'block';
 		} else {
 			document.getElementById(shID + '-show').style.display = 'inline';
-			document.getElementById(shID).style.display = 'block';
-			document.getElementById(shID + '-s').style.display = 'none';
 			document.getElementById(shID).style.display = 'none';
 		}
 	}
