@@ -1,7 +1,5 @@
 @import url("font-awesome.min.css");
 
-@import url("test.css");
-
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 /* === BASIC STYLES === */
@@ -709,70 +707,49 @@ footer>:last-child {
 	#titleBar .toggle:active::before {
 		opacity: 0.75;
 	}
-/*
-	#navPanel {
-		background-color: #1f1f1f;
-		box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
-		-moz-backface-visibility: hidden;
-		transform: translateX(-275px);
-		-moz-transition: -moz-transform 0.5s ease;
-		transition: transform 0.5s ease;
-		display: block;
-		height: 100%;
-		left: 0;
-		overflow-y: auto;
-		position: fixed;
-		top: 0;
-		width: 275px;
-		z-index: 10002;
-	}
-	#navPanel .link {
-		border-bottom: 0;
-		border-top: solid 1px rgba(255, 255, 255, 0.05);
-		color: #888;
-		display: block;
-		height: 48px;
-		line-height: 48px;
-		padding: 0 1em 0 1em;
-		text-decoration: none;
-	}
-	#navPanel .link:first-child {
-		border-top: 0;
-	}
-	#navPanel .link.depth-0 {
-		color: #fff;
-	}
-	#navPanel .link .indent-1 {
-		display: inline-block;
-		width: 1em;
-	}
-	#navPanel .link .indent-2 {
-		display: inline-block;
-		width: 2em;
-	}
-	#navPanel .link .indent-3 {
-		display: inline-block;
-		width: 3em;
-	}
-	#navPanel .link .indent-4 {
-		display: inline-block;
-		width: 4em;
-	}
-	#navPanel .link .indent-5 {
-		display: inline-block;
-		width: 5em;
-	}
-	body.navPanel-visible #page-body {
-		-moz-transform: translateX(275px);
-		transform: translateX(275px);
-	}
-	body.navPanel-visible #titleBar {
-		-moz-transform: translateX(275px);
-		transform: translateX(275px);
-	}
-	body.navPanel-visible #navPanel {
-		-moz-transform: translateX(0);
-		transform: translateX(0);
-	}
-*/
 }
+
+.sidenav {
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    margin-top: 45px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav body {
+    transition: background-color .5s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
