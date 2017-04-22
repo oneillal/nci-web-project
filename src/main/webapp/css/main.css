@@ -410,6 +410,55 @@ a.showLink:hover, a.hideLink:hover {
 	margin-bottom: 20px;
 }
 
+.rowcell h4 {
+        margin-left: 2.4em;
+}
+
+.inputMsg {
+        width: 81%;
+}
+
+.sendEmail {
+        padding-left: 0.6em;
+}
+
+/* Form */
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                -ms-appearance: none;
+                appearance: none;
+                -moz-transition: border-color 0.2s ease-in-out;
+                -webkit-transition: border-color 0.2s ease-in-out;
+                -ms-transition: border-color 0.2s ease-in-out;
+                transition: border-color 0.2s ease-in-out;
+                background: #fff;
+                border: solid 1px #e0e0e0;
+                border-radius: 5px;
+                color: inherit;
+                display: block;
+                outline: 0;
+                padding: 0.75em;
+                text-decoration: none;
+                width: 100%;
+        }
+
+                input[type="text"]:focus,
+                input[type="email"]:focus,
+                textarea:focus {
+                        border-color: #37c0fb;
+                }
+
+        input[type="text"],
+        input[type="email"] {
+                line-height: 1em;
+        }
+
+
+
 /* === BANNER === */
 #banner {
 	background-image: url("../images/banner.jpg");
@@ -672,18 +721,6 @@ footer>:last-child {
 		clear: none;
 		margin-left: 0;
 		margin-bottom: 20px;
-	}
-
-	.rowcell h4 {
-	        margin-left: 2.4em;
-	}
-
-	.inputMsg {
-	        width: 81%;
-	}
-
-	.sendEmail {
-	        padding-left: 0.6em;
 	}
 
 
