@@ -1,5 +1,7 @@
 @import url("font-awesome.min.css");
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 /* === BASIC STYLES === */
@@ -316,6 +318,40 @@ img, div {
 article, aside, details, figcaption, figure, footer, header, hgroup,
 	menu, nav, section {
 	display: block;
+}
+
+.blogdate {
+	color: #38dca1;
+}
+
+.blogtitle {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.blogpost {
+
+}
+
+.blogpostmore {
+	display: none;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 8px;
+	background: transparent url(down.gif) no-repeat left;
+}
+
+a.hideLink {
+	background: transparent url(up.gif) no-repeat left;
+}
+
+a.showLink:hover, a.hideLink:hover {
+	border-bottom: 1px dotted #36f;
 }
 
 /* Aurora title only visible in mobile resolution */
@@ -636,7 +672,7 @@ footer>:last-child {
 		clear: none;
 		margin-left: 0;
 		margin-bottom: 20px;
-	}	
+	}
 
 	/* === FOOTER === */
 	#footer {
@@ -713,49 +749,53 @@ footer>:last-child {
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 40px;
-    text-align:center;
-    margin-top: 45px;
-    margin-left: 0;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 40px;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 0;
 }
 
 .sidenav a {
-    padding: 8px 36px 8px 8px;
-    text-decoration: none;
-    font-size: 1.5em;
-    color: #cecdcd;
-    display: block;
-    transition: 0.3s;
+	padding: 8px 36px 8px 8px;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #cecdcd;
+	display: block;
+	transition: 0.3s;
 }
 
 .sidenav body {
-    transition: background-color .5s;
+	transition: background-color .5s;
 }
 
-.sidenav a:hover{
-    color: #fff;
-    font-weight: bold;
+.sidenav a:hover {
+	color: #fff;
+	font-weight: bold;
 }
+
 .sidenav .closebtn {
-    position: absolute;
-    top: 0px;
-    right: -20px;
-    font-size: 36px;
-    font-weight: bold;
-    margin-left: 70px;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 70px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
 }
-
