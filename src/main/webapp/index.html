@@ -12,29 +12,57 @@
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="js/docked-navbar.js"></script>
+
+		<!-- Mobile SideBar -->		
+		<script>
+			function openNav() {
+				document.getElementById("sidenav").style.width = "20em";
+				document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
+			}
+
+			function closeNav() {
+				document.getElementById("sidenav").style.width = "0";
+				document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
+
+			}
+		</script>
 		
-	<!--	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/util.js"></script>
--->
 	</head>
 <body>
+
+	<!-- Mobile Navbar -->
 	<div id="titleBar">
-		<!--<a href="#mySidenav" class="toggle"></a> -->
 		<a href="javascript:void(0)" id="toggle" class="toggle" onclick="openNav()"></a>
-		<span class="title">Aurora Ireland</span>
+		<div class="title">
+			<a href="index.html" id="logo">
+			<span class="fa fa-rocket" aria-hidden="true"></span>
+			&nbsp;Aurora Ireland&nbsp;
+			<span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+			</a>
+		</div>
+
 	</div>
+	<!-- Mobile Sidebar-->
+	<nav id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="liftoff.html">Lift Off</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
 
 
-	<div id="mySidenav" class="sidenav">
+<!--	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="#">About</a>
 		<a href="#">Services</a>
 		<a href="#">Clients</a>
 		<a href="#">Contact</a>
 	</div>
-
+-->
 <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
 	<div id="page-body">
@@ -151,19 +179,5 @@
 			</div>
 		</div>
 	</div>
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "20em";
-    document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
-//    document.getElementById("toggle")[0].style.visibility = "hidden"
-//    document.getElementById("page-body").style.marginLeft = "20em";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
- //   document.getElementById("page-body").style.marginLeft = "0";
-}
-</script>
 </body>
 </html>
