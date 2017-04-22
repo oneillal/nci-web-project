@@ -1,63 +1,66 @@
 $(document).ready(
-		function() {
+    function () {
 
-			// Variables
-			var $nav = $(".nav"), $window = $(window), $body = $("body"),
-			// returns the offset coordinates in px for the top element .nav
-			navOffsetTop = $nav.offset().top
+        // Variables
+        var $nav = $(".nav"),
+            $window = $(window),
+            $body = $("body"),
+            // returns the offset coordinates in px for the top element .nav
+            navOffsetTop = $nav.offset().top
 
-			function init() {
-				// Add event listeners on scroll and resize
-				$window.on('scroll', onScroll)
-				$window.on('resize', resize)
-			}
+        function init() {
+            // Add event listeners on scroll and resize
+            $window.on('scroll', onScroll)
+            $window.on('resize', resize)
+        }
 
-			function resize() {
-				$body.removeClass('has-docked-nav')
-				navOffsetTop = $nav.offset().top
-				onScroll()
-			}
+        function resize() {
+            $body.removeClass('has-docked-nav')
+            navOffsetTop = $nav.offset().top
+            onScroll()
+        }
 
-			// $window.scrollTop(): Get the current vertical position of the
-			// scroll bar
-			// for the first element in the set of matched elements
+        // $window.scrollTop(): Get the current vertical position of the
+        // scroll bar
+        // for the first element in the set of matched elements
 
-			function onScroll() {
-				if (navOffsetTop < $window.scrollTop()
-						&& !$body.hasClass('has-docked-nav')) {
-					$body.addClass('has-docked-nav')
-				}
+        function onScroll() {
+            if (navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
+                $body.addClass('has-docked-nav')
+            }
 
-				if (navOffsetTop > $window.scrollTop()
-						&& $body.hasClass('has-docked-nav')) {
-					$body.removeClass('has-docked-nav')
-				}
-			}
+            if (navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
+                $body.removeClass('has-docked-nav')
+            }
+        }
 
-			init();
+        init();
 
-		});
+    });
 
 function openNav() {
-	document.getElementById("sidenav").style.width = "14em";
-	document.getElementById("toggle").className = document
-			.getElementById("toggle").className.replace(/\btoggle\b/, '');
+    document.getElementById("sidenav").style.width = "14em";
+    document.getElementById("toggle").className = document
+        .getElementById("toggle").className.replace(/\btoggle\b/, '');
 };
 
 function closeNav() {
-	document.getElementById("sidenav").style.width = "0";
-	document.getElementById("toggle").className = document
-			.getElementById("toggle").className.replace('', 'toggle');
+    document.getElementById("sidenav").style.width = "0";
+    document.getElementById("toggle").className = document
+        .getElementById("toggle").className.replace('', 'toggle');
 };
 
 function showHide(shID) {
-	if (document.getElementById(shID)) {
-		if (document.getElementById(shID + '-show').style.display != 'none') {
-			document.getElementById(shID + '-show').style.display = 'none';
-			document.getElementById(shID).style.display = 'block';
-		} else {
-			document.getElementById(shID + '-show').style.display = 'inline';
-			document.getElementById(shID).style.display = 'none';
-		}
-	}
+    if (document.getElementById(shID)) {
+        if (document.getElementById(shID + '-show').style.display != 'none') {
+            document.getElementById(shID + '-show').style.display = 'none';
+            document.getElementById(shID).style.display = 'block';
+        } else {
+            document.getElementById(shID + '-show').style.display = 'inline';
+            document.getElementById(shID).style.display = 'none';
+        }
+
+    }
+
+
 };
