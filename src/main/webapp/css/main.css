@@ -330,29 +330,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 }
 
 .blogpost {
-	color: blue;
+
 }
 
 .blogpostmore {
 	display: none;
-	border-top: 1px solid #666;
-	border-bottom: 1px solid #666;
 }
 
-a.showLink, a.hideLink {
-	text-decoration: none;
-	color: #36f;
-	padding-left: 8px;
-	background: transparent url(down.gif) no-repeat left;
-}
 
-a.hideLink {
-	background: transparent url(up.gif) no-repeat left;
-}
-
-a.showLink:hover, a.hideLink:hover {
-	border-bottom: 1px dotted #36f;
-}
 
 /* Aurora title only visible in mobile resolution */
 #navPanel, #titleBar {
