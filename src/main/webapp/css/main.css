@@ -113,15 +113,6 @@ header p {
 	width: 100%;
 }
 
-.image.about {
-	display: block;
-	margin: 0 0 2em 0;
-}
-
-.image.about img {
-	display: block;
-	width: 100%;
-}
 
 /* === LISTS === */
 ul.default {
@@ -783,6 +774,25 @@ footer>:last-child {
 	#titleBar .toggle:active::before {
 		opacity: 0.75;
 	}
+	.image{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+	.image img {
+		display: block;
+		width: 100%;
+	}
+
+	/* Video */
+
+	video {
+	        margin: 0 0 2em 0;
+		display: block;
+ 	       width: 100%;
+	}
+
+
 }
 
 .sidenav {
