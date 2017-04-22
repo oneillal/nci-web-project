@@ -113,15 +113,24 @@ header p {
 	width: 100%;
 }
 
-.image.about {
+.image{
 	display: block;
 	margin: 0 0 2em 0;
 }
 
-.image.about img {
+.image img {
 	display: block;
 	width: 100%;
 }
+
+/* Video */
+
+video {
+        margin: 0 0 2em 0;
+	display: block;
+        width: 100%;
+}
+
 
 /* === LISTS === */
 ul.default {
@@ -422,7 +431,7 @@ a.showLink:hover, a.hideLink:hover {
         padding-left: 0.6em;
 }
 
-/* Form  TST lslsls*/
+/* Form */
 
         input[type="text"],
         input[type="email"],
