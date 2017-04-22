@@ -68,7 +68,10 @@
         <section id="banner" class="banner">
             <header>
                 <h2>Aurora Ireland - <em>Space Tourism Pioneers</em></h2>
-                <a href="#" class="button">Click For Lift Off!&nbsp;&nbsp;&nbsp;<span class="fa fa-spinner fa-spin" style="font-size: 15px;"></span><span class="fa fa-rocket" aria-hidden="true" style="font-size: 30px;"></span></a>
+
+                <audio id="clock" src="media/582369main_Mercury-4_Clock-Started.mp3"></audio>
+
+                <a href="javascript:void(0)" class="button" onclick="playClock()">Learn more&nbsp;&nbsp;&nbsp;<span class="fa fa-spinner fa-spin" style="font-size: 15px;"></span><span class="fa fa-rocket" aria-hidden="true" style="font-size: 30px;"></span></a>
             </header>
         </section>
 
@@ -141,6 +144,12 @@
             </div>
         </div>
     </div>
+    <!-- javascript to play the lift-off audio -->
+    <script>
+        function playClock() {
+            document.getElementById('clock').play();
+        }
+    </script>
 </body>
 
 </html>
