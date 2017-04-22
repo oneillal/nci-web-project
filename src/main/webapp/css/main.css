@@ -567,7 +567,7 @@ footer>:last-child {
 	.spacer {
 		width: 100%;
 		display: none;
-		height: 7rem;
+		height: 6rem;
 		z-index: 100;
 	}
 	.has-docked-nav .spacer {
@@ -707,6 +707,7 @@ footer>:last-child {
 	#titleBar .toggle:active::before {
 		opacity: 0.75;
 	}
+/*
 	#navPanel {
 		background-color: #1f1f1f;
 		box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
@@ -771,4 +772,5 @@ footer>:last-child {
 		-moz-transform: translateX(0);
 		transform: translateX(0);
 	}
+*/
 }
