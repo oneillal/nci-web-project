@@ -5,18 +5,57 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- CSS -->
-<link rel="stylesheet" href="css/main.css" />
+                <!-- CSS -->
+                <link rel="stylesheet" href="css/main.css" />
+                <link rel="stylesheet" href="css/test.css" />
 
-<!-- Scripts -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/skel.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/util.js"></script>
+                <!-- Scripts -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <script src="js/docked-navbar.js"></script>
+
+                <!-- Mobile SideBar -->         
+                <script>
+                        function openNav() {
+                                document.getElementById("sidenav").style.width = "20em";
+                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
+                        }
+
+                        function closeNav() {
+                                document.getElementById("sidenav").style.width = "0";
+                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
+
+                        }
+                </script>
+
 
 </head>
 <body>
+
+        <!-- Mobile Navbar -->
+        <div id="titleBar">
+                <a href="javascript:void(0)" id="toggle" class="toggle" onclick="openNav()"></a>
+                <div class="title">
+                        <a href="index.html" id="logo">
+                        <span class="fa fa-rocket" aria-hidden="true"></span>
+                        &nbsp;Aurora Ireland&nbsp;
+                        <span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+                        </a>
+                </div>
+
+        </div>
+        <!-- Mobile Sidebar-->
+        <nav id="sidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="liftoff.html">Lift Off</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="current"><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+
+
 	<div id="page-body">
 		<div id="header" class="header">
 			<h1>
