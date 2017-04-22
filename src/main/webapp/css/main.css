@@ -370,6 +370,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 	display: block;
 	clear: both;
 	height: 0;
+	margin-bottom: 40px;
 }
 
 .row>* {
