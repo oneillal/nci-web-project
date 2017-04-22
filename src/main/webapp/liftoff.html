@@ -10,57 +10,43 @@
 
                 <!-- Scripts -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                <script src="js/docked-navbar.js"></script>
-
-		<!-- Mobile SideBar -->         
-                <script>
-                        function openNav() {
-                                document.getElementById("sidenav").style.width = "20em";
-                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
-                        }
-
-                        function closeNav() {
-                                document.getElementById("sidenav").style.width = "0";
-                                document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
-
-                        }
-                </script>
-
+                <script src="js/main.js"></script>
 	</head>
 <body>
 
-        <!-- Mobile Navbar -->
-        <div id="titleBar">
-                <a href="javascript:void(0)" id="toggle" class="toggle" onclick="openNav()"></a>
-                <div class="title">
-                        <a href="index.html" id="logo">
-                        <span class="fa fa-rocket" aria-hidden="true"></span>
-                        &nbsp;Aurora Ireland&nbsp;
-                        <span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
-                        </a>
-                </div>
+	<!-- Mobile Navbar -->
+	<div id="titleBar">
+		<a href="javascript:void(0)" id="toggle" class="toggle" onclick="openNav()"></a>
 
-        </div>
-        <!-- Mobile Sidebar-->
-        <nav id="sidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="current"><a href="liftoff.html">Lift Off</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </nav>
+		<div class="title">
+			<a href="index.html" id="logo">
+			<span class="fa fa-rocket" aria-hidden="true"></span>
+			&nbsp;Aurora Ireland&nbsp;
+			<span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+			</a>
+		</div>
+
+	</div>
+	<!-- Mobile Sidebar-->
+	<nav id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="liftoff.html">Lift Off</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
 
 
 	<div id="page-body">
 		<div id="header" class="header">
 			<h1>
 				<a href="index.html" id="logo">
-					<span class="fa fa-rocket" aria-hidden="true"></span>
-					&nbsp;Aurora Ireland&nbsp;
-					<span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+					<span class="fa fa-rocket" style="font-size: 40px" aria-hidden="true"></span>
+					Aurora Ireland
+					<span class="fa fa-rocket fa-flip-horizontal" style="font-size: 40px" aria-hidden="true"></span>
 				</a>
 			</h1>
 

@@ -10,22 +10,7 @@
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="js/docked-navbar.js"></script>
-
-		<!-- Mobile SideBar -->		
-		<script>
-			function openNav() {
-				document.getElementById("sidenav").style.width = "16em";
-				document.getElementById("toggle").className = document.getElementById("toggle").className.replace(/\btoggle\b/,'');
-			}
-
-			function closeNav() {
-				document.getElementById("sidenav").style.width = "0";
-				document.getElementById("toggle").className = document.getElementById("toggle").className.replace('','toggle');
-
-			}
-		</script>
-		
+		<script src="js/main.js"></script>
 	</head>
 <body>
 
@@ -59,9 +44,9 @@
 		<div id="header" class="header">
 			<h1>
 				<a href="index.html" id="logo">
-					<span class="fa fa-rocket" aria-hidden="true"></span>
-					&nbsp;Aurora Ireland&nbsp;
-					<span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span>
+					<span class="fa fa-rocket" style="font-size: 40px" aria-hidden="true"></span>
+					Aurora Ireland
+					<span class="fa fa-rocket fa-flip-horizontal" style="font-size: 40px" aria-hidden="true"></span>
 				</a>
 			</h1>
 
@@ -82,7 +67,7 @@
 		<section id="banner" class="banner">
 			<header>
 				<h2>Aurora Ireland - <em>Space Tourism Pioneers</em></h2>
-				<a href="#" class="button"><span class="fa fa-rocket" aria-hidden="true"></span>&nbsp;&nbsp;Lift Off&nbsp;&nbsp;<span class="fa fa-rocket fa-flip-horizontal" aria-hidden="true"></span></a>
+				<a href="#" class="button">Click For Lift Off!&nbsp;&nbsp;&nbsp;<span class="fa fa-spinner fa-spin" style="font-size: 15px;"></span><span class="fa fa-rocket" aria-hidden="true" style="font-size: 30px;"></span></a>
 			</header>
 		</section>
 

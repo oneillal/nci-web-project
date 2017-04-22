@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
-
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 /* === BASIC STYLES === */
 body.is-loading * {
@@ -14,7 +14,7 @@ body {
 	margin: 0;
 	height: 100%;
 	background: #fff;
-	color: #474747;
+	color: #111;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
 	font-weight: 300;
@@ -26,13 +26,11 @@ a {
 		opacity 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
 		opacity 0.2s ease-in-out;
-	color: #239b56;
+	color: #fff;
 	text-decoration: none;
-	border-bottom: dotted 1px;
 }
 
 a:hover {
-	color: #239b56;
 	border-bottom-color: transparent;
 }
 
@@ -48,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: inherit;
 	font-weight: 600;
 	line-height: 1.75em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -162,7 +160,7 @@ ul.icons li a, ul.icons li span {
 		ease-in-out, box-shadow 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
 		box-shadow 0.2s ease-in-out;
-	background-color: #239b56;
+	background-color: #fcaf3e;
 	border-radius: 3px;
 	border: 0;
 	color: #fff;
@@ -170,7 +168,7 @@ ul.icons li a, ul.icons li span {
 	display: inline-block;
 	padding: 0 1.5em;
 	line-height: 2.75em;
-	min-width: 9em;
+	min-width: 6em;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 600;
@@ -180,7 +178,7 @@ ul.icons li a, ul.icons li span {
 }
 
 .button:hover {
-	background-color: #2ecc71;
+	background-color: #fcaf3e;
 	color: #fff !important;
 }
 
@@ -217,13 +215,16 @@ ul.icons li a, ul.icons li span {
 /* === HEADER === */
 #header {
 	text-align: center;
-	padding: 2em 0 0 0;
-	background-color: #f7f7f7;
+	padding: 1em 0 0 0;
+	background-color: #000;
+	color: #fff;
 }
 
 #header h1 {
-	padding: 0 0 1em 0;
+	padding: 0 0 0.5em 0;
 	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
 }
 
 #header h1 a {
@@ -235,7 +236,7 @@ ul.icons li a, ul.icons li span {
 /* === NAVBAR === */
 #nav {
 	cursor: default;
-	background-color: #333;
+	background-color: #000;
 	padding: 0;
 }
 
@@ -250,7 +251,7 @@ ul.icons li a, ul.icons li span {
 }
 
 #nav>ul>li a {
-	color: #239b56; /* #c0c0c0; */
+	color: #fcaf3e; /* #c0c0c0; */
 	font-weight: 600;
 	text-decoration: none;
 	border: 0;
@@ -368,7 +369,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 
 .rowcellsidebar {
 	width: 30%;
-	clear: none;c
+	clear: none;
 	margin-left: 0;
 	margin-bottom: 20px;
 }
@@ -425,7 +426,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 /* === FOOTER === */
 #footer {
 	padding: 1em 0 1em 0;
-	background-color: #f7f7f7;
+	background-color: #dfdede;
 }
 
 footer>:last-child {
@@ -514,6 +515,7 @@ footer>:last-child {
 	/* === HEADER === */
 	#header {
 		padding: 2em 0 0 0;
+		background-color: #f7f7f7;
 	}
 	#header h1 {
 		padding: 0 0 1em 0;
@@ -663,7 +665,7 @@ footer>:last-child {
 		top: 0;
 		width: 100%;
 		z-index: 10001;
-		background-color: #333;
+		background-color: #000;
 		height: 44px;
 		line-height: 44px;
 	}
@@ -674,6 +676,8 @@ footer>:last-child {
 		text-align: center;
 		color: #fff;
 		z-index: 1;
+		font-family: 'Orbitron', sans-serif;
+		font-weight: bold;
 	}
 	#titleBar .title em {
 		font-style: normal;
@@ -702,7 +706,6 @@ footer>:last-child {
 		text-align: center;
 		width: 44px;
 		color: #fff;
-		opacity: 0.5;
 	}
 	#titleBar .toggle:active::before {
 		opacity: 0.75;
@@ -710,25 +713,26 @@ footer>:last-child {
 }
 
 .sidenav {
-    height: 80%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #000;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 40px;
     text-align:center;
     margin-top: 45px;
+    margin-left: 0;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 36px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1.5em;
+    color: #cecdcd;
     display: block;
     transition: 0.3s;
 }
@@ -738,14 +742,16 @@ footer>:last-child {
 }
 
 .sidenav a:hover{
-    color: #f1f1f1;
+    color: #fff;
+    font-weight: bold;
 }
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 0px;
+    right: -20px;
     font-size: 36px;
-    margin-left: 50px;
+    font-weight: bold;
+    margin-left: 70px;
 }
 
 @media screen and (max-height: 450px) {
