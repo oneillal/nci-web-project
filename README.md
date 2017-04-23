@@ -62,9 +62,9 @@ _**about.html**_
 About the Company  
 
 ### Production Details ###  
-We looked at competitor web sites to get an idea of what kind of functionality and information similar sites provide. We tried to take the best ideas for those and implement on our site. We added some of those as enhancements in the Issues section on github. We implemented most of what we set out in our design and wireframe. One good idea that we had which we did not have time to implement was a countdown to lauch timer. Mark implemented this but we did get it on to the main site due to time constraints.  
+We looked at competitor web sites to get an idea of what kind of functionality and information these sites provided. We tried to take the best ideas from those and implement in our website. We tracked these as enhancement ideas in the [Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=) section on GitHub. We were able to implement most of what we set out in our design and wireframe. One good idea that we had which we did not have time to implement was a [Countdown to Launch Timer](https://github.com/oneillal/nci-web-project/issues/5). We had this in our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and Mark [implemented it](https://github.com/oneillal/nci-web-project/tree/master/src/main/webapp/countdown_basic) but we did have time to incorporate it into the main site due to responsive mode issues.  
 
-Our overall approach to developing the project includes wireframing and building a sitemap, having decided as a team on the proposed basic layout of the site. Once we assign tasks amongst the team and begin to work individually and also during working session to write code and develop the site. We utilised Git and Github to maintain version control whilst sharing code.  
+Our overall approach to developing the project started with building our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and [sitemap](https://github.com/oneillal/nci-web-project/blob/master/docs/sitemap.jpg). Having decided as a team on the proposed basic layout of the site, we assign tasks amongst the team and begin to work both individually and also during working session to write code and develop the site. We utilised Git and Github to maintain version control whilst sharing code.  
 
 We divided up the development with Jonas taking the lead on Javascript, Mark responsible for HTML and Alan primarily working on the CSS. Mark played the role of the researcher/stake holder and defined what requirements the site should fulfill. He also setup the Twitter account so that we could have a twitter timeline in our Mission Log page. We have a real Twitter follower!
 
@@ -78,7 +78,8 @@ Overall we worked very well as a team to produce a website that we are happy wit
 ### Highlights of Project ###  
 Some of the highlights in our website development are:  
 * We are very happy with the the overall look and feel of the site. The colours and layout work well.
-* The javascript scrolling effect on the Home page
+* The javascript scrolling effect on the Home page.
+* The docking NavBar in desktop mode.
 * 'Read More' functionality for the Mission Log posts that allowed us to keep the page shorter and gave the user the option to only expand the article section that they are interested in.
 * CSS based Responsive Mode Sidebar Menu
 
