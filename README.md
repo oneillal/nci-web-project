@@ -8,6 +8,8 @@
 
 [Bluemix Deploy & Maven Build Instructions](https://github.com/oneillal/nci-web-project/blob/master/docs/Bluemix_Maven.md)
 
+[Third Party Resources Reference](https://github.com/oneillal/nci-web-project/blob/master/docs/3rd%20party%20media%20INDEX)
+
 Introduction
 
 Overview of the Site
