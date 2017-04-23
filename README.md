@@ -35,13 +35,15 @@ All of these sites make heavy use of video and photographic content, using simpl
 _**Overview of the Site**_  
 It has a Space theme.  
 
-_**Wireframe**_  
+_**Wireframe & Sitemap**_  
 ![Wireframe](https://github.com/oneillal/nci-web-project/raw/master/docs/index_wireframe_desktop.png)
 
-_**Sitemap**_  
 ![Sitemap](https://github.com/oneillal/nci-web-project/raw/master/docs/sitemap.jpg)
 
-_index.html_  
+_**Site Details**_
+
+<span style="color: green">_index.html_</span>
+
 Main page which introduces the user to the company. 
 It contains a buton that scrolls the page down to the marketing information.  
 
