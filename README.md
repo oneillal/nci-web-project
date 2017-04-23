@@ -10,27 +10,47 @@
 
 [Third Party Resources Reference](https://github.com/oneillal/nci-web-project/blob/master/docs/3rd%20party%20media%20INDEX)
 
-Introduction
+Introduction  
 
-Overview of the Site
+_Overview of the Site_  
+It has a Space theme.  
 
-Production Details
+_index.html_  
+Main page which introduces the user to the company. 
+It contains a buton that scrolls the page down to the marketing information.  
+
+_liftoff.html_  
+Pages that lets the user learn about Space exploration.  
+
+_blog.html_  
+A page that tells the user news about the what is happening (presented in the form of a mission log).  
+
+_register.html_  
+A page with a form to allow the user to register interest. In a real world siutation this form would register the user in a company contact database and send a confirmation eamil to the user.  
+
+_about.html_  
+About the Company  
+
+
+
+**Production Details**  
+Work Split, how well we worked as a team...etc  
 Project blog
-Requirements Gathering
-Highlights of JS/CSS etc.
-Validation errors
 
-Third Party Resources
 
-Font Awesome - http://fontawesome.io/
-Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+**Requirements Gathering**  
 
-We made use of FontAwesome to disaply graphics on our site using CSS.
+**Highlights of JS/CSS etc.** 
+Validation errors  
 
-Images:
-https://images.nasa.gov/#/details-iss030e177670.html
+Third Party Resources  
 
-Deployment Details
+Font Awesome - http://fontawesome.io/  
+Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.  
 
-Work Split, how well we worked as a team...etc
+We made use of FontAwesome to disaply graphics on our site using CSS.  
+
+**Deployment Details**  
+
+
 
