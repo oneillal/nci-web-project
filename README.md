@@ -70,22 +70,31 @@ About the Company
 
 **Production Details**  
 Work Split, how well we worked as a team...etc  
-We kept a [Project Blog]().
 
-Our initial approach to developing the project includes wireframing and building a sitemap, having decided as a team on the proposed basic layout of the site. Once we assign tasks amongst the team and begin to write code, we will utilise Git and Github to maintain version control whilst sharing code.  
+We looked at competitor web sites to get an idea of what kind of functionality and information similar sites provide. We tried to take the best ideas for those and implement on our site. We added some of those as enhancements in the Issues section on github. We implemented most of what we set out in our design and wireframe. One good idea that we had which we did not have time to implement was a countdown to lauch timer. Mark implemented this but we did get it on to the main site due to time constraints.  
+
+Our overall approach to developing the project includes wireframing and building a sitemap, having decided as a team on the proposed basic layout of the site. Once we assign tasks amongst the team and begin to work individually and also during working session to write code and develop the site. We utilised Git and Github to maintain version control whilst sharing code.  
+
+We divided up the development with Jonas taking the lead on Javascript, Mark responsible for HTML and Alan primarily working on the CSS. Mark played the role of the researcher/stake holder and defined what requirements the site should fulfill. He also setup the Twitter account so that we could have a twitter timeline in our Mission Log page. We have a real Twitter follower!
+
+Jonas did a lot of research on how to add functionality to the site such as the scrolling effect in the Home page when the 'Learn More' button is clicked and also the responsive mode menu.
+
+We also used GitHub issues to track defects and made good use of the comments etc to collaborate.
+
+We kept a diary of the project in our [Project Blog].
 
 
-**Requirements Gathering**  
+_**Highlights of JS/CSS etc.**_
+Scrolling home page
+Read More functionality for the Mission Log posts
+Responsive Mode Sidebar Menu
 
-**Highlights of JS/CSS etc.** 
-Validation errors  
 
-Third Party Resources  
+_**Validation Errors**_
+We ran CSS3 and HTML5 validation a number of times over the project and resolve those as needed. These included missing ALT atributes on images and missing header tags when using HTML5 section and article tags.
 
-Font Awesome - http://fontawesome.io/  
-Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.  
-
-We made use of FontAwesome to disaply graphics on our site using CSS.  
+We have attached the validation reports that shows that all our errors were resolved.  
+ 
 
 **Deployment Details**  
 
