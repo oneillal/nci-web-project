@@ -76,7 +76,7 @@ Finding time is still proving difficult but we are making good use of slack to w
 * * *
 ##### :date: _14th March 2017_  
 ### :hamster: Call of Duty
-We are all busy with work. @oneillal is travelling this week for work. Thankfully, Vikas mentioned that this weeks submission is optional. Phew!
+We are all busy with work. **@oneillal** is travelling this week for work. Thankfully, Vikas mentioned that this weeks submission is optional. Phew!
 
 
 * * *
