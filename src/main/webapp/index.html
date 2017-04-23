@@ -71,12 +71,12 @@
 
                 <audio id="clock" src="media/582369main_Mercury-4_Clock-Started.mp3"></audio>
 
-                <a href="javascript:void(0)" class="button" onclick="playClock()">Learn more&nbsp;&nbsp;&nbsp;<span class="fa fa-spinner fa-spin" style="font-size: 15px;"></span><span class="fa fa-rocket" aria-hidden="true" style="font-size: 30px;"></span></a>
+                <a href="#smoothScroll" class="button">Learn more&nbsp;&nbsp;&nbsp;<span class="fa fa-spinner fa-spin" style="font-size: 15px;"></span><span class="fa fa-rocket" aria-hidden="true" style="font-size: 30px;"></span></a>
             </header>
         </section>
 
         <section class="main-content">
-            <div class="container">
+            <div class="container" id="smoothScroll">
                 <div class="row">
 
                     <section class="rowcell">
@@ -144,12 +144,7 @@
             </div>
         </div>
     </div>
-    <!-- javascript to play the lift-off audio -->
-    <script>
-        function playClock() {
-            document.getElementById('clock').play();
-        }
-    </script>
+
 </body>
 
 </html>
