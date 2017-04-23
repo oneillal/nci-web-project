@@ -27,6 +27,7 @@ body {
 }
 
 a {
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,opacity 0.2s ease-in-out;
 	color: #fff;
 	text-decoration: none;
 }
@@ -37,6 +38,8 @@ a:hover {
 }
 
 .link {
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+		opacity 0.2s ease-in-out;
 	color: maroon;
 	text-decoration: none;
 }
@@ -161,6 +164,8 @@ ul.icons li a, ul.icons li span {
 
 /* === BUTTON === */
 .button {
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+		box-shadow 0.2s ease-in-out;
 	background-color: #fcaf3e;
 	border-radius: 3px;
 	border: 0;
@@ -399,22 +404,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 }
 
 .register.details {
-	width: 51%;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 10px 0 10px 0;
+        width: 51%;
+        margin-right:auto;
+        margin-left:auto;
+        padding: 10px 0 10px 0;
 }
 
 .register.send {
-	padding: 0 0 0 0;
+        padding: 0 0 0 0;
 }
 
 .form {
-	text-align: center;
+        text-align: center;
 }
 
 /* Form */
 input[type="text"], input[type="email"], textarea {
+	transition: border-color 0.2s ease-in-out;
 	background: #fff;
 	border: solid 1px #e0e0e0;
 	border-radius: 5px;
@@ -454,7 +460,7 @@ input[type="text"], input[type="email"] {
 	left: 0;
 	width: 100%;
 	background: #212121;
-	background: rgba(27, 27, 27, 1);
+	background: rgba(27, 27, 27, 0.75);
 	color: #fff;
 	padding: 1.5em 0;
 }
@@ -471,7 +477,7 @@ input[type="text"], input[type="email"] {
 }
 
 #banner header h2 a {
-	border-bottom-color: rgba(255, 255, 255, 1);
+	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
 #banner header h2 a:hover {
@@ -499,7 +505,7 @@ footer>:last-child {
 
 #footer a {
 	color: inherit;
-	border-bottom-color: rgba(71, 71, 71, 1);
+	border-bottom-color: rgba(71, 71, 71, 0.25);
 }
 
 #footer a:hover {
@@ -558,11 +564,32 @@ footer>:last-child {
 	width: 5em;
 	height: 5em;
 	line-height: 5em;
+	box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
 	margin: 0 0 2em 0;
 }
 
 .icon.major:before {
 	font-size: 36px;
+}
+
+@media screen and (min-width: 840px) {
+	/* Docked Navbar */
+	.has-docked-nav .nav {
+		width: 100%;
+		z-index: 100;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.spacer {
+		width: 100%;
+		display: none;
+		height: 6rem;
+		z-index: 100;
+	}
+	.has-docked-nav .spacer {
+		display: block;
+	}
 }
 
 .sidenav {
@@ -574,6 +601,7 @@ footer>:last-child {
 	left: 0;
 	background-color: #000;
 	overflow-x: hidden;
+	transition: 0.5s;
 	padding-top: 40px;
 	text-align: center;
 	margin-top: 45px;
@@ -586,6 +614,11 @@ footer>:last-child {
 	font-size: 1.5em;
 	color: #cecdcd;
 	display: block;
+	transition: 0.3s;
+}
+
+.sidenav body {
+	transition: background-color .5s;
 }
 
 .sidenav a:hover {
@@ -602,33 +635,9 @@ footer>:last-child {
 	margin-left: 70px;
 }
 
-
-
 /* =============================================================*/
 /* MOBILE RESPONSIVE MODE CLASSES & STYLES						*/
 /* =============================================================*/
-
-@media screen and (min-width: 840px) {
-	/* Docked Navbar */
-	.has-docked-nav .nav {
-		width: 100%;
-		z-index: 100;
-		position: fixed;
-		top: 0;
-		left: 0;
-	}
-	.spacer {
-		width: 100%;
-		display: none;
-		height: 6em;
-		z-index: 100;
-	}
-	.has-docked-nav .spacer {
-		display: block;
-	}
-}
-
-/* === MOBILE === */
 @media screen and (max-width: 840px) {
 	/* === BASIC === */
 	html, body {
@@ -703,10 +712,14 @@ footer>:last-child {
 		margin-bottom: 1em;
 	}
 	#page-body {
+		backface-visibility: hidden;
+		transition: transform 0.5s ease;
 		padding-bottom: 1px;
 		padding-top: 44px;
 	}
 	#titleBar {
+		backface-visibility: hidden;
+		transition: transform 0.5s ease;
 		display: block;
 		height: 44px;
 		left: 0;
@@ -769,9 +782,11 @@ footer>:last-child {
 	}
 
 	/* Video */
-	video, iframe {
+	video,iframe {
 		margin: 0 0 2em 0;
 		display: block;
 		width: 100%;
 	}
 }
+
+
