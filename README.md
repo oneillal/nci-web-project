@@ -22,8 +22,8 @@ Welcome to our web design project, which we envision will serve the purpose of b
 
 The basic function of the website will be to attract interest from prospective space travellers, so appearance and functionality will be crucial to meet that objective. Therefore we will focus on content which can immediately grab the attention of site visitors, but also want to have crisp, clear site navigation.  
 
-_**Research**_
-In the course of our research, we have identified 3 key competitors in our field, namely:
+_**Research**_  
+In the course of our research, we have identified 3 key competitors in our field, namely:  
 
 [SpaceX](www.spacex.com)  
 SpaceX designs, manufactures and launches advanced rockets and spacecraft.  
@@ -34,7 +34,9 @@ The world's first commercial spaceline.
 [Blue Origin](www.blueorigin.com)  
 Developing ground-breaking spaceflight systems.  
 
-All of these sites make heavy use of video and photographic content, using simple navbar styles in the case of two and 'burger' menu on another.
+All of these sites are Commerically developed, likely with large budgets containing a lot of functionality. They make heavy use of video and photographic content and would be expected from real-world Space Tourism companies. Most use simple navbar styles in the case of two and 'burger' menu on another.
+
+Our goal is to develop a site that looks professional, contains some interesting content and have some fun elements about Space Tourism.  
 
 
 _**Overview of the Site**_  
