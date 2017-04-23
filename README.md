@@ -36,11 +36,7 @@ Developing ground-breaking spaceflight systems.
 
 All of these sites are Commerically developed, likely with large budgets containing a lot of functionality. They make heavy use of video and photographic content and would be expected from real-world Space Tourism companies. Most use simple navbar styles in the case of two and 'burger' menu on another.
 
-Our goal is to develop a site that looks professional, contains some interesting content and have some fun elements about Space Tourism.  
-
-
-### Overview of the Site ###  
-It has a Space theme.  
+Our goal is to develop a site that looks professional, has a Space theme in it's colour scheme, contains some interesting content and has some fun elements about Space Tourism.  
 
 ### Wireframe & Sitemap ###  
 ![Wireframe](https://github.com/oneillal/nci-web-project/raw/master/docs/index_wireframe_desktop.png)
@@ -49,7 +45,7 @@ It has a Space theme.
 
 ### Site Details ###
 
-_**index.html**_</span>
+_**index.html**_  
 Main page which introduces the user to the company. 
 It contains a buton that scrolls the page down to the marketing information.  
 
@@ -59,8 +55,8 @@ Pages that lets the user learn about Space exploration.
 _**blog.html**_  
 A page that tells the user news about the what is happening (presented in the form of a mission log).  
 
-_**register.html**_  
-A page with a form to allow the user to register interest. In a real world siutation this form would register the user in a company contact database and send a confirmation eamil to the user.  
+_**contact.html**_  
+A page with a form to allow the user to register interest. In a real world situation this form would register the user in a company contact database and send a confirmation eamil to the user.  
 
 _**about.html**_  
 About the Company  
@@ -74,7 +70,7 @@ We divided up the development with Jonas taking the lead on Javascript, Mark res
 
 Jonas did a lot of research on how to add functionality to the site such as the scrolling effect in the Home page when the 'Learn More' button is clicked and also the responsive mode menu.
 
-We also used GitHub issues to track defects and made good use of the comments etc to collaborate and we also kept a diary of the project in our [Project Blog].
+We also used GitHub issues to track defects and made good use of the comments etc to collaborate and we also kept a diary of the project in our [Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md).
 
 Overall we worked very well as a team to produce a website that we are happy with. We spent more time than was probably needed tweaking the lkook and feel and less time on the content. We feel that we could have planned better in order to have more time to add additonal content.  
 
@@ -96,7 +92,7 @@ We have attached the validation reports that shows that all our errors were reso
 ### Website Deployment Details ###    
 We decided to use Bluemix as our website hosting platform because we wanted to learn and understand this more. We found that we needed to add a simple servlet to our project in order to make this work. We also used Apache Maven to build our resources in order to deploy to Bluemix. Maven is used to build the web archive (WAR) file. 
 
-We also used Cloud Foundry tools to deploy to Bluemix. We documented the HowTo for Bluemix, Maven and cf in our Depployment readme in GitHub.
+We also used Cloud Foundry tools to deploy to Bluemix. We documented the HowTo for Bluemix, Maven and cf in our [Bluemix Deploy & Maven Build Instructions](https://github.com/oneillal/nci-web-project/blob/master/docs/Bluemix_Maven.md) on GitHub.
 
 
 
