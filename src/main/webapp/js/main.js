@@ -64,6 +64,11 @@ function showHide(shID) {
     }
 };
 
+// function used in contact.html
+function sendMsg() {
+	alert("Message sent!");
+}
+
 $(function() {
 	$('a[href="#smoothScroll"]').click(function(event){
 	        if (this.hash !== "") {
