@@ -396,7 +396,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 	width: 60%;
 	clear: none;
 	margin-left: 0;
-	margin-right: 20;
+	margin-right: 20px;
 }
 
 .rowcellsidebar {
@@ -430,7 +430,6 @@ input[type="text"], input[type="email"], textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
-	appearance: none;
 	-moz-transition: border-color 0.2s ease-in-out;
 	-webkit-transition: border-color 0.2s ease-in-out;
 	-ms-transition: border-color 0.2s ease-in-out;
