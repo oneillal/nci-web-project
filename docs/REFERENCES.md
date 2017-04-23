@@ -1,1 +1,210 @@
+Credit/Reference - index of 3rd party media
+-------------------------------------------
+
+NOTE: 
+
+A significant amount of the content on the project website was obtained from https://images.nasa.gov/#/ and the guidelines thereon include the statement as follows (available at https://www.nasa.gov/multimedia/guidelines/index.html):
+"You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations and Internet Web pages. This general permission extends to personal Web pages."
+
+Material was also obtained from https://commons.wikimedia.org which has guidelines at the following:
+https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia
+https://commons.wikimedia.org/wiki/Commons:Licensing
+
+Also refer to https://creativecommons.org/licenses/by/3.0/
+
+_________________________________________________________________________________________________________
+
+**IMAGES**
+
+Image#1
+iss030e177670~small.jpg 
+
+Earth Observations taken by Expedition 30 crewmember
+Available at: https://images.nasa.gov/#/details-iss030e177670.html
+(Accessed: 19 April 2017)
+
+NASA ID: iss030e177670
+Center: JSC
+Date Created: 2012-03-28
+
+
+Image#2
+sts069-714-046~small.jpg 
+
+Astronaut Michael Gernhardt during extravehicular activity (EVA)
+Available at: https://images.nasa.gov/#/details-sts069-714-046.html
+(Accessed: 12 April 2017)
+
+NASA ID: sts069-714-046
+Center: JSC
+Date Created: 1995-09-16
+
+
+Image#3
+Apollo_11_bootprint.jpg
+
+Apollo 11 bootprint
+Available at: https://commons.wikimedia.org/wiki/File:Apollo_11_bootprint.jpg
+(Accessed: 12 April 2017)
+
+This image or video was catalogued by NASA Headquarters of the United States National Aeronautics and Space Administration (NASA) under Photo ID: AS11-40-5877.
+
+
+Image#4
+PIA16871~small.jpg 
+
+Herschel Cool Universe Artist Concept
+Available at: https://images.nasa.gov/#/details-PIA16871.html
+(Accessed: 20 April 2017)
+
+NASA ID: PIA16871
+Center: JPL
+Secondary Creator Credit: ESA /C. Carreau
+Date Created: 2013-03-05
+
+
+Image#5
+6900937~small.jpg
+
+Saturn Apollo Program
+Available at: https://images.nasa.gov/#/details-6900937.html
+(Accessed: 20 April 2017)
+
+NASA ID: 6900937
+Center: MSFC
+Date Created: 1969-07-01
+
+
+Image#6
+640px-Cev_launch.jpg
+
+CEV launch
+Available at: https://commons.wikimedia.org/wiki/File:Cev_launch.jpg
+(Accessed: 14 April 2017)
+
+This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted".
+
+
+Image#7
+Art_of_the_Space_Launch_System_on_Launch_Pad.jpg
+
+Art of the Space Launch System on Launch Pad
+Available at: https://commons.wikimedia.org/wiki/File:Art_of_the_Space_Launch_System_on_Launch_Pad.jpg
+(Accessed: 14 April 2017)
+
+This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted".
+
+
+Image#8
+KSC-06pd0552~small.jpg
+
+KSC-06pd0552 
+Available at: https://images.nasa.gov/#/details-KSC-06pd0552.html
+(Accessed: 18 April 2017)
+
+NASA ID: KSC-06pd0552
+Center: KSC
+Date Created: 2006-03-22
+
+
+Image#9
+201304210013HQ~small.jpg
+
+Antares Rocket Launch
+Available at: https://images.nasa.gov/#/details-201304210013HQ.html
+(Accessed: 14 April 2017)
+
+This file is licensed under the Creative Commons Attribution 2.0 Generic license.
+This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted"
+
+
+Image#10
+201304210013HQ~small.jpg
+
+Antares Rocket Launch
+Available at: https://images.nasa.gov/#/details-201304210013HQ.html
+(Accessed: 14 April 2017)
+
+This file is licensed under the Creative Commons Attribution 2.0 Generic license.
+This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted"
+
+
+Image#11
+Combustion_tap-off_rocket_cycle.jpg
+
+Combustion tap-off rocket cycle
+Available at: https://commons.wikimedia.org/wiki/File:Combustion_tap-off_rocket_cycle.svg
+(Accessed: 16 April 2017)
+
+Combustion_tap-off_rocket_cycle.svg
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+This file was derived from:  Expander rocket cycle.svg
+Author 	
+Original: Duk
+
+
+Image#12
+KSC-07PD-0991~small.jpg
+
+The third stage of the Orbital Sciences Pegasus XL rocket
+Available at: https://images.nasa.gov/#/details-KSC-07PD-0991.html
+(Accessed: 18 April 2017)
+
+NASA ID: KSC-07PD-0991
+Center: KSC
+Date Created: 2007-04-03
+
+
+Modified following images:
+https://commons.wikimedia.org/wiki/File:Ag%C3%AAncia_Espacial_Brasileira_(logo).png
+https://commons.wikimedia.org/wiki/File:Nuclear_Plant_Icon_-green.svg
+_________________________________________________________________________________________________________
+
+
+**VIDEO**
+
+Video#1
+TheEvolutionOfSpaceExploration.mp4
+
+The Evolution Of Space Exploration 
+Available at: https://www.youtube.com/watch?v=5y5QU50KA_c
+(Accessed: 10 April 2017)
+
+Category - Science & Technology 
+License - Creative Commons Attribution license (reuse allowed)
+
+
+Video#2	
+Orion Rocket Launch
+Available at: https://www.youtube.com/watch?v=gTPH5dEanCc
+(Accessed: 18 April 2017)
+
+Published on Apr 30, 2016
+Floating Cities Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/
+Category
+        Music 
+License
+        Standard YouTube License
+
+	
+_________________________________________________________________________________________________________
+	
+**AUDIO**
+
+Clips from www.nasa.gov
+
+https://www.nasa.gov/mp3/578626main_sputnik-beep.mp3
+https://www.nasa.gov/mp3/582369main_Mercury-4_Clock-Started.mp3
+
+_________________________________________________________________________________________________________
+
+
+**LINKS**
+
+https://en.wikipedia.org/wiki/Combustion_tap-off_cycle
+
+
+
 
