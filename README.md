@@ -39,7 +39,7 @@ _**Wireframe**_
 ![Wireframe](https://github.com/oneillal/nci-web-project/raw/master/docs/index_wireframe_desktop.png)
 
 _**Sitemap**_  
-![Sitemap](https://github.com/oneillal/nci-web-project/raw/master/docs/sitemap.jpg))
+![Sitemap](https://github.com/oneillal/nci-web-project/raw/master/docs/sitemap.jpg)
 
 _index.html_  
 Main page which introduces the user to the company. 
