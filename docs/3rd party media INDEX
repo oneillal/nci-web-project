@@ -119,17 +119,6 @@ This file is in the public domain in the United States because it was solely cre
 
 
 Image#10
-201304210013HQ~small.jpg
-
-Antares Rocket Launch
-Available at: https://images.nasa.gov/#/details-201304210013HQ.html
-(Accessed: 14 April 2017)
-
-This file is licensed under the Creative Commons Attribution 2.0 Generic license.
-This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted"
-
-
-Image#11
 Combustion_tap-off_rocket_cycle.jpg
 
 Combustion tap-off rocket cycle
@@ -143,7 +132,7 @@ Author
 Original: Duk
 
 
-Image#12
+Image#11
 KSC-07PD-0991~small.jpg
 
 The third stage of the Orbital Sciences Pegasus XL rocket
@@ -201,12 +190,26 @@ https://www.nasa.gov/mp3/582369main_Mercury-4_Clock-Started.mp3
 _________________________________________________________________________________________________________
 
 
-**LINKS**
+**3rd party LINKS**
 
 https://en.wikipedia.org/wiki/Combustion_tap-off_cycle
 
+_________________________________________________________________________________________________________
 
+**CODE**
 
+CSS-
 
+We made use of FontAwesome to display graphics on our site using CSS.
+
+Font Awesome - http://fontawesome.io/
+Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+
+Javascript -
+
+We utilised the jQuery Javascript library.
+Accessible at http://jquery.com/download/ or can link to hosted library in the head section as we did: src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+
+https://www.w3schools.com/jquery/
 
 
