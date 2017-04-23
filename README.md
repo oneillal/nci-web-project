@@ -13,6 +13,25 @@
 Introduction
 
 Overview of the Site
+It has a Space theme.
+
+index.html
+Main page which introduces the user to the company. 
+It contains a buton that scrolls the page down to the marketing information.
+
+liftoff.html
+Pages that lets the user learn about Space exploration.
+
+blog.html
+A page that tells the user news about the what is happening (presented in the form of a mission log).
+
+register.html
+A page with a form to allow the user to register interest. In a real world siutation this form would register the user in a company contact database and send a confirmation eamil to the user.
+
+about.html
+About the Company
+
+
 
 Production Details
 Project blog
