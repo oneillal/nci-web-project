@@ -2,13 +2,10 @@
 
 #### Alan O'Neill | Mark Hanlon  | Jonas Stein
 
-[Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md)
-
-[Logged Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue)
-
-[Bluemix Deploy & Maven Build Instructions](https://github.com/oneillal/nci-web-project/blob/master/docs/Bluemix_Maven.md)
-
-[Third Party Resources Reference](https://github.com/oneillal/nci-web-project/blob/master/docs/3rd%20party%20media%20INDEX)
+* [Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md)  
+* [Logged Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=is%3Aissue)  
+* [Bluemix Deploy & Maven Build Instructions](https://github.com/oneillal/nci-web-project/blob/master/docs/Bluemix_Maven.md)  
+* [Third Party Resources Reference](https://github.com/oneillal/nci-web-project/blob/master/docs/3rd%20party%20media%20INDEX)  
 
 _**Introduction**_  
 Welcome to our web design project, which we envision will serve the purpose of building a website promoting the commercial space tourism startup - "Aurora Ireland".  
