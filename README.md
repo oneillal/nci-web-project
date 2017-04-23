@@ -42,7 +42,7 @@ _**Wireframe & Sitemap**_
 
 _**Site Details**_
 
-<span style="color: green">_index.html_</span>
+<span style="color:green">_index.html_</span>
 
 Main page which introduces the user to the company. 
 It contains a buton that scrolls the page down to the marketing information.  
