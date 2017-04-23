@@ -96,7 +96,7 @@ Some of the highlights in our website development are:
 ### Validation Errors ###  
 We ran CSS3 and HTML5 validation a number of times over the project and resolve those as needed. These included missing ALT attributes on images and missing header tags when using HTML5 section and article tags.  
 
-We have attached the validation reports that shows that all our errors were resolved.  
+We have attached our validation reports to show that all our errors were resolved. The reports are stored [here](https://github.com/oneillal/nci-web-project/raw/master/docs/w3_validation_20170423.zip).  
 
 
 ### Website Deployment Details ###    
