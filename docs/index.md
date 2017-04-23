@@ -1,11 +1,12 @@
 # Web Design Project Blog 
 
-
+* * *
 ##### :date: _23th April 2017_
 ### :beer: Thats a Wrap!
 We are done!! Project finally submitted...and with 40 minutes to spare. :smile: We have lived and breathed this project for the last 8 weeks, especially the last 7 days. It was a good experience and I think we are happy with the final outcome. Onward and upward!
 ![](https://raw.githubusercontent.com/oneillal/nci-web-project/master/docs/fatladysings.png)
 
+* * *
 ##### :date: _20th April 2017_
 ### :white_check_mark: Validator 2: Judgement Day
 **@hanlonmk1** ran our first pass at html and css validation. Except for a few missing _ALT_ text on images we are in good shape. Whoohoo!
