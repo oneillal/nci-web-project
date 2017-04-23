@@ -62,15 +62,15 @@ _**about.html**_
 About the Company  
 
 ### Production Details ###  
-We looked at competitor web sites to get an idea of what kind of functionality and information these sites provided. We tried to take the best ideas from those and implement in our website. We tracked these as enhancement ideas in the [Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=) section on GitHub. We were able to implement most of what we set out in our design and wireframe. One good idea that we had which we did not have time to implement was a [Countdown to Launch Timer](https://github.com/oneillal/nci-web-project/issues/5). We had this in our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and Mark [implemented it](https://github.com/oneillal/nci-web-project/tree/master/src/main/webapp/countdown_basic) but we did have time to incorporate it into the main site due to responsive mode issues.  
+We looked at competitor web sites to get an idea of what kind of functionality and information these sites provided. We tried to take the best ideas from those and implement in our website. We tracked these as enhancement ideas in the [Issues](https://github.com/oneillal/nci-web-project/issues?utf8=%E2%9C%93&q=) section on GitHub.  
 
-Our overall approach to developing the project started with building our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and [sitemap](https://github.com/oneillal/nci-web-project/blob/master/docs/sitemap.jpg). Having decided as a team on the proposed basic layout of the site, we assign tasks amongst the team and begin to work both individually and also during working session to write code and develop the site. We utilised Git and Github to maintain version control whilst sharing code.  
+Our overall approach to developing the project started with building our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and [sitemap](https://github.com/oneillal/nci-web-project/blob/master/docs/sitemap.jpg). Having decided as a team on the proposed basic layout of the site, we assign tasks amongst the team and begin to work both individually and also during working session to write code and develop the site. We utilised Git and Github to maintain version control for our codebase and also for all our [other documentation](https://github.com/oneillal/nci-web-project/tree/master/docs). We made good use of slack and setup a WhatsApp group to collaborate on the project.
 
-We divided up the development with Jonas taking the lead on Javascript, Mark responsible for HTML and Alan primarily working on the CSS. Mark played the role of the researcher/stake holder and defined what requirements the site should fulfill. He also setup the Twitter account so that we could have a twitter timeline in our Mission Log page. We have a real Twitter follower!
+We divided up the development with Jonas taking a lead on Javascript, Mark responsible for HTML and Alan primarily working on the CSS. Mark also played the role of the researcher/stake holder and defined what requirements the site should fulfill. He also setup the Twitter account so that we could have a twitter timeline in our Mission Log page. We have a real Twitter follower!
 
-Jonas did a lot of research on how to add functionality to the site such as the scrolling effect in the Home page when the 'Learn More' button is clicked and also the responsive mode menu.
+Jonas did a lot of research on how to add functionality to the site such as the scrolling effect in the Home page when the 'Learn More' button is clicked and also the responsive mode menu and Alan worked on the Bluemix build and deployment and documenting the project report in GitHub. We also used GitHub issues to track defects and made good use of the comments etc to collaborate and we also kept a diary of the project in our [Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md).
 
-We also used GitHub issues to track defects and made good use of the comments etc to collaborate and we also kept a diary of the project in our [Project Blog](https://github.com/oneillal/nci-web-project/blob/master/docs/index.md).
+We were able to implement most of what we set out in our design and wireframe. One good idea that we had which we did not have time to implement was a [Countdown to Launch Timer](https://github.com/oneillal/nci-web-project/issues/5). We had this in our [wireframe](https://github.com/oneillal/nci-web-project/blob/master/docs/index_wireframe_desktop.png) and Mark [implemented it](https://github.com/oneillal/nci-web-project/tree/master/src/main/webapp/countdown_basic) but we did not have enough time to incorporate this into the main site as we ran into problems with this in responsive mode.
 
 Overall we worked very well as a team to produce a website that we are happy with. We spent more time than was probably needed tweaking the lkook and feel and less time on the content. We feel that we could have planned better in order to have more time to add additonal content.  
 
@@ -88,7 +88,7 @@ Some of the highlights in our website development are:
 We ran CSS3 and HTML5 validation a number of times over the project and resolve those as needed. These included missing ALT atributes on images and missing header tags when using HTML5 section and article tags.  
 
 We have attached the validation reports that shows that all our errors were resolved.  
- 
+
 
 ### Website Deployment Details ###    
 We decided to use Bluemix as our website hosting platform because we wanted to learn and understand this more. We found that we needed to add a simple servlet to our project in order to make this work. We also used Apache Maven to build our resources in order to deploy to Bluemix. Maven is used to build the web archive (WAR) file. 
