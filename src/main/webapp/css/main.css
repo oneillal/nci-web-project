@@ -410,12 +410,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup,
 	
 }
 
-.inputMsg {
-	width: 81%;
+.register.details {
+        width: 51%;
+        margin-right:auto;
+        margin-left:auto;
+        padding: 10px 0 10px 0;
 }
 
-.sendEmail {
-	padding-left: 0.6em;
+.register.send {
+        padding: 0 0 0 0;
+}
+
+.form {
+        text-align: center;
 }
 
 /* Form */

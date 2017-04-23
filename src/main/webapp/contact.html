@@ -72,46 +72,38 @@
 		<!-- Main -->
 		<section class="main-content">
 			<div class="container">
-				<div id="row">
+                                        <!-- Content -->
 
-					<!-- Content -->
+                                        <article>
+                                                <header>
+                                                        <h2>Register your interest below</h2>
+                                                        <p>We will keep you informed with the latest developments.</p>
+                                                </header>
+                                                <!--section class="rowcell"-->
+                                                <div class="form">
+                                                        <form onsubmit="sendMsg(); return false;">
+                                                                <div class="register details">
+                                                                                <input type="text" name="name" id="name" placeholder="Full Name" align="middle" />
+                                                                </div>
+                                                                <div class="register details">
+                                                                                <input type="email" name="email" id="email"
+                                                                                        placeholder="Email" />
+                                                                </div>
+                                                                <div class="register details">
+                                                                                <textarea name="message" id="message" placeholder="Message (optional)" rows="5"></textarea>
+                                                                </div>
+                                                                <div class="register send">
+                                                                                <ul class="">
+                                                                                        <li><input type="submit" class="button alt"
+                                                                                                value="Register" /></li>
+                                                                                </ul>
+                                                                </div>
+                                                        </form>
+                                                </div>
+					<!--/section-->
+                                        </article>
+                                </div>
 
-					<article>
-						<header>
-							<h2>Contact</h2>
-							<p>If you are interested in career in Space Tourism and
-								Exploration then we would love to hear from you...</p>
-						</header>
-						<section class="rowcell">
-							<h4>Drop us an E-mail</h4>
-							<form onsubmit="sendMsg(); return false;">
-								<div class="row">
-									<div>
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div>
-										<input type="email" name="email" id="email"
-											placeholder="Email" />
-									</div>
-								</div>
-								<div class="row">
-									<div class="inputMsg">
-										<textarea name="message" id="message" placeholder="Message"
-											rows="5"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="sendEmail">
-										<ul class="">
-											<li><input type="submit" class="button alt"
-												value="Send Message" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-					</article>
-				</div>
 			</div>
 		</section>
 
