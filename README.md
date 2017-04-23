@@ -1,19 +1,28 @@
-# NCI Web Design Project 2017
+# NCI Web Design Project 2017 #
 
-##### Alan O'Neill | Mark Hanlon  | Jonas Stein #####
+### Authors: ###
+* Alan O'Neill (Id: 16134427)
+* Mark Hanlon (Id: 16135571)
+* Jonas Stein (Id: 16136306)
+
+### Site URL: [http://aurorairl.mybluemix.net](http://aurorairl.mybluemix.net) ###
+![aurorairl.mybluemix.net](https://github.com/oneillal/nci-web-project/blob/master/docs/aurorairl_mybluemix_net.png)
+
+
+# Project Report #
 
 ### Contents ###
 
-* [Introduction]
-* [Research]
-* [Overview of the Site]
-* [Wireframe & Sitemap]
-* [Site Details]
-* [Production Details]
-* [Highlights of the Project]
-* [Validation Errors]
-* [Website Deployment Details]
-* [References]
+* _Introduction_
+* _Research_
+* _Overview of the Site_
+* _Wireframe & Sitemap_
+* _Site Details_
+* _Production Details_
+* _Highlights of the Project_
+* _Validation Errors_
+* _Website Deployment Details_
+* _References_
 
 ### Introduction ###  
 Welcome to our web design project, which we envision will serve the purpose of building a website promoting the commercial space tourism startup - "Aurora Ireland".  
